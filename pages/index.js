@@ -101,21 +101,21 @@ const tools = [
   {
     name: "Word Counter",
     desc: "Count words and characters instantly",
-    link: "/word-counter"
+    link: "/tools/word-counter"
   },
   {
     name: "Meta Tag Generator",
     desc: "Generate SEO meta tags easily",
-    link: "/meta-generator"
+    link: "/tools/meta-generator"
   },
   {
     name: "Robots.txt Generator",
     desc: "Create robots.txt file for SEO",
-    link: "/robots-generator"
+    link: "/tools/robots-generator"
   },
   {
     name: "Sitemap Generator",
     desc: "Generate XML sitemap",
-    link: "/sitemap-generator"
+    link: "/tools/sitemap-generator"
   }
 ];
