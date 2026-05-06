@@ -1,12 +1,13 @@
-import Sidebar from "./Sidebar";
+import Sidebar from './Sidebar'
 
-export default function Layout({ children }) {
-  return (
-    <div style={{display:"flex"}}>
+export default function Layout({children}){
+  return(
+    <div style={{display:'flex'}}>
       <Sidebar />
-      <div style={{flex:1, padding:"20px", background:"#f5f7fa"}}>
+
+      <div style={{flex:1,padding:'30px'}}>
         {children}
       </div>
     </div>
-  );
+  )
 }
