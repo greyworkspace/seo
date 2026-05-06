@@ -4,6 +4,12 @@ import Link from "next/link";
 
 const tools = [
   {
+  name:"Text HTML Editor",
+  desc:"Advanced text to HTML editor",
+  link:"/tools/text-html-editor",
+  icon:"💻"
+},
+  {
     name: "Word Counter",
     category: "Content",
     desc: "Count words and characters instantly",
